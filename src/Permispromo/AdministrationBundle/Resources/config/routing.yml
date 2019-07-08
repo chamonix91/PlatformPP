@@ -1,0 +1,7 @@
+permispromo_administration_source:
+    resource: "@PermispromoAdministrationBundle/Resources/config/routing/source.yml"
+    prefix:   /dashboard/source
+
+permispromo_administration_homepage:
+    path:     /
+    defaults: { _controller: PermispromoAdministrationBundle:Default:index }

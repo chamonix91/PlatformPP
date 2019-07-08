@@ -1,0 +1,15 @@
+permispromo_administration:
+    resource: "@PermispromoAdministrationBundle/Resources/config/routing.yml"
+    prefix:   /
+
+permispromo_global:
+    resource: "@PermispromoGlobalBundle/Resources/config/routing.yml"
+    prefix:   /
+
+permispromoclient:
+    resource: "@PermispromoclientBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

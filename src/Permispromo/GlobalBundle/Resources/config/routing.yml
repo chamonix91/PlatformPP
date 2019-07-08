@@ -1,0 +1,7 @@
+permispromo_global_homepage:
+    path:     /
+    defaults: { _controller: PermispromoGlobalBundle:Default:index }
+
+Dashboard:
+    path:     /dashboard
+    defaults: { _controller: PermispromoGlobalBundle:Main:index }

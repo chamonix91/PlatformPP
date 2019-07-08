@@ -1,0 +1,3 @@
+permispromoclient_homepage:
+    path:     /
+    defaults: { _controller: PermispromoclientBundle:Default:index }
